@@ -1,0 +1,29 @@
+{
+    "name": "helpfalcon/helpfalcon-php",
+    "description": "HelpFalcon API client for PHP, generated from the OpenAPI document.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "helpfalcon",
+        "helpdesk",
+        "api",
+        "zendesk"
+    ],
+    "homepage": "https://helpfalcon.com/developers/client-libraries",
+    "support": {
+        "docs": "https://helpfalcon.com/developers",
+        "email": "support@helpfalcon.com"
+    },
+    "require": {
+        "php": ">=8.3",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "HelpFalcon\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    }
+}
